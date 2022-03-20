@@ -6,7 +6,9 @@ public class ChunkUtils
     private static int dirtLevelOffset = 0;
 
     private static int maxHeight = 40;
-    private static float increment = .005f;
+
+    // Propery responsible for the terrain undulating
+    private static float increment = .02f;
 
     public static float GenerateSurfaceHeight(float x, float z)
     {
