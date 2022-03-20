@@ -18,7 +18,7 @@ public class World : MonoBehaviour
     private void Start()
     {
         Texture2D atlas = GetTextureAtlas();
-        Material material = new Material(Shader.Find("Universal Render Pipeline/Lit"));
+        Material material = new Material(Shader.Find("Standard"));
         material.mainTexture = atlas;
         blockMaterial = material;
 
@@ -28,19 +28,6 @@ public class World : MonoBehaviour
         GenerateWorld();
         StartCoroutine(BuildWorld());
     }
-
-    /*
-    public void DestroyBlocks(string chunkName, Vector3 blockPosition)
-    {
-        Chunk chunk;
-
-        if (chunks.TryGetValue(chunkName, out chunk))
-        {
-            chunk.DestroyBlock(blockPosition);
-        }
-
-
-    }*/
 
     private void GenerateBlockTypes()
     {
