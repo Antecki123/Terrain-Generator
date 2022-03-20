@@ -331,11 +331,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texturesAtlas:
-  - {fileID: 2800000, guid: ee5c083a82a0eb14a9d4f95e1f1a0020, type: 3}
   - {fileID: 2800000, guid: cbd2d16ea8199fe46b621b6632b4635b, type: 3}
-  - {fileID: 2800000, guid: a699a651b16b4ab44b5a0daf8bb6bd58, type: 3}
+  - {fileID: 2800000, guid: ee5c083a82a0eb14a9d4f95e1f1a0020, type: 3}
   - {fileID: 2800000, guid: 7c1bd92fc1a35a242b5ed4b008b265d1, type: 3}
-  worldSize: 16
+  - {fileID: 2800000, guid: a699a651b16b4ab44b5a0daf8bb6bd58, type: 3}
+  worldSize: 32
 --- !u!4 &1547326521
 Transform:
   m_ObjectHideFlags: 0
